@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: #ecf0f1;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #269fab;
+$brand-primary: #269fab;
+$jumbotron-bg: white;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+.center {
+  text-align: center;
+}
+
+.navbar {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  }
+}
+
+body h1 {
+  text-align: center;
+}
+
+#history_1 {
+  padding-top: $navbar-height;
+  color: white;
+  height: 100vh;
+  background-image: image-url('soup.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#history_2 {
+  padding-top: $navbar-height;
+}
+#history_3 {
+  padding-top: $navbar-height;
+}
+#contact_us {
+  padding-top: $navbar-height;
+}
+
+#blog {
+  padding-top: $navbar-height;
+}

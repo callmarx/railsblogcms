@@ -1,9 +1,9 @@
-## Rinwp is not wordpress | Sopa - Simple operated Post Application
+## Rinwp is not wordpress | Sopa - Simple Operated Post Application
 ![Logo](./app/assets/images/logo.png)
 
 Free and open source content management system (CMS) developed in Ruby on Rails
 
-NOTE: That's just an excuse for me to study rails
+NOTE: That's just an excuse for me to study rails :)
 
 ### Basic configuration:
 ruby version: >= 2.4
@@ -38,7 +38,7 @@ Puma starting in single mode...
 ```
 Go to http://localhost:3000
 
-For the administrative panel to access the: http://localhost:3000/admin
+For the administrative panel access the: http://localhost:3000/admin
 
 Registered user test :
 ```console

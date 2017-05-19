@@ -13,10 +13,10 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><%= link_to "Início", root_path %></li>
-          <li><%= link_to "history_2", root_path(:anchor => "history_2") %></li>
-          <li><%= link_to "history_3",root_path(:anchor => "history_3") %></li>
-          <li><%= link_to "contact_us", root_path(:anchor => "contact_us") %></li>
+          <li><%= link_to "History I", root_path(:anchor => "history_1"), class:"smoothscroll" %></li>
+          <li><%= link_to "history II", root_path(:anchor => "history_2"), class:"smoothscroll" %></li>
+          <li><%= link_to "history III",root_path(:anchor => "history_3"), class:"smoothscroll" %></li>
+          <li><%= link_to "contact_us", root_path(:anchor => "contact_us"), class:"smoothscroll" %></li>
           <li><%= link_to "Blog", articles_path %></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">

@@ -45,12 +45,21 @@ body h1 {
 
 #history_2 {
   padding-top: $navbar-height;
+  height: 50vh;
+  background-color: white;
 }
 #history_3 {
   padding-top: $navbar-height;
+  height: 50vh;
+  background-color: white;
 }
 #contact_us {
   padding-top: $navbar-height;
+  height: 100vh;
+  background-image: image-url('soup_draw.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
 }
 
 #blog {
